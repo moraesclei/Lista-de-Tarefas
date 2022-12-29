@@ -1,0 +1,31 @@
+body {
+    background: rgb(67, 67, 199);
+    color: white;
+    font: 14pt Tahoma;
+}
+
+div #home-image{
+    width: 30%;
+    left: 60%;
+    position: fixed;
+    background-size: cover;
+}
+button.remover {
+    position: absolute;
+    right: 560px;
+}
+
+ul li.naoRealizada {
+    list-style-type: '☐';
+    cursor: pointer;
+    text-indent: 10px;
+}
+
+ul li.realizada {
+    list-style-type: '☑';
+    cursor: pointer;
+    text-indent: 10px;
+    color: darkgray;
+    text-decoration: line-through;
+    /*permite que o texto fique riscado */
+}
